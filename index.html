@@ -1,1 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hospital Bag Checklist</title>
+  <meta name="description" content="A simple hospital bag checklist. Works offline. No accounts. No tracking." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="/">Hospital Bag Checklist</a>
+      <div class="navlinks">
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Pack calmly.</h1>
+      <p class="lead">
+        A simple hospital bag checklist. Add your own items, track progress, and export your list as text or PDF.
+        Everything works offline.
+      </p>
+
+      <div class="cta">
+        <!-- Replace with App Store link after release -->
+        <a class="btn primary" href="#">Download</a>
+        <a class="btn" href="privacy.html">Privacy Policy</a>
+        <a class="btn" href="support.html">Contact</a>
+      </div>
+
+      <div class="meta">
+        <span class="pill">Offline</span>
+        <span class="pill">No accounts</span>
+        <span class="pill">No tracking</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Checklist</h2>
+        <p>All essentials in one place, nothing missed.</p>
+      </div>
+      <div class="card">
+        <h2>Custom items</h2>
+        <p>Add and manage your own items easily.</p>
+      </div>
+      <div class="card">
+        <h2>Export</h2>
+        <p>Share your checklist as text or PDF.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Hospital Bag Checklist</div>
+      <div class="footerlinks">
+        <a href="privacy.html">Privacy</a>
+        <span>·</span>
+        <a href="support.html">Support</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
