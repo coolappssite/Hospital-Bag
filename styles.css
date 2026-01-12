@@ -106,5 +106,5 @@ a{ color:inherit; text-decoration:none; }
 .footer{
   margin-top:28px;
   font-size:13px;
-  color:var(--muted);
+  color:#0f0f10;
 }
