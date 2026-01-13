@@ -4,11 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hospital Bag Checklist</title>
+
   <style>
     :root{
       --bg:#ffffff;
       --text:#0b0b0b;
-      --muted:#6b6b6b; /* was too dark */
+      --muted:#6b6b6b;
       --btn:#0b0b0b;
       --btnText:#ffffff;
       --max:980px;
@@ -22,6 +23,7 @@
       color:var(--text);
     }
 
+    /* Page frame */
     .page{
       min-height:100vh;
       display:flex;
@@ -40,6 +42,7 @@
       text-align:center;
     }
 
+    /* Headline */
     h1{
       margin:0;
       font-weight:800;
@@ -48,6 +51,7 @@
       font-size: clamp(34px, 4.2vw, 56px);
     }
 
+    /* Main illustration block */
     .hero{
       margin-top:36px;
       display:flex;
@@ -62,15 +66,16 @@
       display:block;
     }
 
-    /* NEW: small check icon styling */
+    /* Small check icon styling */
     .check-icon{
-      width: 28px;
-      height: 28px;
+      width:28px;
+      height:28px;
       display:inline-block;
-      vertical-align: -4px; /* aligns with text baseline nicely */
-      margin-left: 6px;
+      vertical-align:-4px;
+      margin-left:6px;
     }
 
+    /* CTA */
     .cta{
       margin-top:46px;
       display:flex;
@@ -106,13 +111,14 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.10);
     }
 
+    /* Footer links */
     .footer{
       margin-top:22px;
       display:flex;
       gap:34px;
       font-size:13px;
       color:var(--muted);
-      padding-bottom: 24px; /* replaces <br><br><br> */
+      padding-bottom:24px;
     }
 
     .footer a{
@@ -124,15 +130,18 @@
       text-decoration:underline;
     }
 
+    /* Optional: keep everything nicely centered even on short screens */
     @media (max-height: 720px){
       .page{justify-content:flex-start}
       .wrap{padding-top:10px}
     }
   </style>
 </head>
+
 <body>
   <main class="page">
     <div class="wrap">
+
       <h1>
         Simple hospital bag<br>
         checklist
@@ -144,6 +153,7 @@
       </div>
 
       <div class="cta">
+        <!-- Replace href with your App Store link if needed -->
         <a class="btn" href="https://apps.apple.com/us/app/hospital-bag/id6757750121">Download app</a>
       </div>
 
@@ -151,6 +161,7 @@
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Contacts</a>
       </nav>
+
     </div>
   </main>
 </body>
