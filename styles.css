@@ -50,12 +50,13 @@ p {
 
 .back {
   margin-bottom: 16px;
+  font-size: 18px;
 }
 
 .back-link {
   text-decoration: none;
   color: #0b0b0b;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .back-link:hover {
