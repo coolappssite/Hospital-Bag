@@ -16,6 +16,11 @@ body {
   color: #0b0b0b;
 }
 
+a,
+a:visited {
+  color: inherit;
+}
+
 .page {
   min-height: 100vh;
   display: flex;
@@ -117,6 +122,96 @@ h1 {
 }
 
 .footer a:hover {
+  text-decoration: underline;
+}
+
+.container.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 48px 20px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.container.page .content {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container.page h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  letter-spacing: normal;
+}
+
+.container.page h2 {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.container.page h3 {
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.container.page p {
+  line-height: 1.6;
+}
+
+.container.page .muted {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.container.page .back {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.container.page .back-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
+.container.page .back-link:hover {
+  text-decoration: underline;
+}
+
+.container.page .card.wide {
+  width: 100%;
+  margin: 24px auto;
+}
+
+.container.page .prose {
+  width: 100%;
+}
+
+.container.page .footer {
+  margin-top: auto;
+  width: 100%;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+
+.container.page .footerlinks {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.container.page .footerlinks a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container.page .footerlinks a:hover {
   text-decoration: underline;
 }
 
